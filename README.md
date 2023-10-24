@@ -152,3 +152,5 @@ Integrating React with Django
 
 When django renders a template, react should be able to render the template as well.
 Django will render the template but react will manage it.
+
+
