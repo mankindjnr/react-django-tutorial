@@ -133,15 +133,15 @@ npm init -y
 npm i webpack webpack-cli --save-dev
 npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
 npm i react react-dom --save-dev
-npm i @material-ui/core
-npm i @babel/plugin-proposal-class-properties
+npm install @mui/material
+npm install @babel/plugin-proposal-class-properties
 npm install react-router-dom
-npm install @material-ui/icons
+npm install @mui/icons-material
 ```
 NB - while installing the above dependancies, ensure react version installed is compatible with the material ui since material ui is dependent on react. When installing i had to force material ui.
 dependancies i forced include te react router-dom and material ui.
 
-<u>proposed solutuin to the above problem</u>
+<u>proposed solution to the above problem</u>
 ```bash
 replace material-ui/core with @mui/material
 replace material-ui/icons with @mui/icons-material
